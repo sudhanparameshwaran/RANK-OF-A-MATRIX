@@ -15,6 +15,9 @@ To write a python program to find the rank of a matrix
 
 ## Program:
 
+import os
+os.environ["OPENBLAS_NUM_THREADS"]= '1"
+
 import numpy as np
 
 matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
